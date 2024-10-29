@@ -102,7 +102,7 @@ body {
 }
 
 .background-img {
-  background-image: url(/img/venus-marte_sandro-botticelli_1445-1510.jpg);
+  background-image: url(/venus-marte_sandro-botticelli_1445-1510.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 20%;
@@ -112,7 +112,7 @@ body {
 }
 
 .hero__banner {
-  background-image: url(/img/Botticelli-Portrait_of_a_Youth-removebg-preview.png);
+  background-image: url(/Botticelli-Portrait_of_a_Youth-removebg-preview.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right bottom;
@@ -333,7 +333,7 @@ body {
 }
 
 .galeria__content #card-1 {
-  background-image: url('/img/Baco\,_por_Caravaggio.jpg');
+  background-image: url(Baco\,_por_Caravaggio.jpg);
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -344,11 +344,11 @@ body {
 .galeria__content #card-1:hover {
   background-size: 110%;
   filter: grayscale(0%);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), url("../img/animais.jpg"));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), url(Baco\,_por_Caravaggio.jpg));
 }
 
 .galeria__content #card-2 {
-  background-image: url("/img/Judith_Beheading_Holofernes_-_Caravaggio.jpg");
+  background-image: url(Judith_Beheading_Holofernes_-_Caravaggio.jpg);
   background-size: 190%;
   background-position: center;
   background-repeat: no-repeat;
@@ -359,11 +359,11 @@ body {
 .galeria__content #card-2:hover {
   background-size: 200%;
   filter: grayscale(0%);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), url("../img/arquitetura.jpg"));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), url(Judith_Beheading_Holofernes_-_Caravaggio.jpg));
 }
 
 .galeria__content #card-3 {
-  background-image: url("/img/Crucifixion_of_Saint_Peter-Caravaggio_-c.1600--1.jpg");
+  background-image: url(Crucifixion_of_Saint_Peter-Caravaggio_-c.1600--1.jpg);
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -374,11 +374,11 @@ body {
 .galeria__content #card-3:hover {
   background-size: 110%;
   filter: grayscale(0%);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), url("../img/cidade.jpg"));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), url(Crucifixion_of_Saint_Peter-Caravaggio_-c.1600--1.jpg));
 }
 
 .galeria__content #card-4 {
-  background-image: url("/img/blake-europe-x71164.jpg");
+  background-image: url(blake-europe-x71164.jpg);
   background-size: 100%;
   background-position: top center;
   background-repeat: no-repeat;
@@ -389,11 +389,11 @@ body {
 .galeria__content #card-4:hover {
   background-size: 110%;
   filter: grayscale(0%);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), url("../img/decoracao.jpg"));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), url(blake-europe-x71164.jpg));
 }
 
 .galeria__content #card-5 {
-  background-image: url("/img/download.png");
+  background-image: url(download.png);
   background-size: 230%;
   background-position: center;
   background-repeat: no-repeat;
@@ -404,11 +404,11 @@ body {
 .galeria__content #card-5:hover {
   background-size: 240%;
   filter: grayscale(0%);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), url("../img/esportes.jpg"));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), url(download.png));
 }
 
 .galeria__content #card-6 {
-  background-image: url("/img/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg");
+  background-image: url(Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg);
   background-size: 180%;
   background-position: center;
   background-repeat: no-repeat;
@@ -419,11 +419,11 @@ body {
 .galeria__content #card-6:hover {
   background-size: 190%;
   filter: grayscale(0%);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), url("../img/natureza.jpg"));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), url(Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg));
 }
 
 .galeria__content #card-7 {
-  background-image: url("/img/MICHELANGELO-BUONARROTI-LAST-JUDGMENT-DETAIL-17-.jpeg");
+  background-image: url(MICHELANGELO-BUONARROTI-LAST-JUDGMENT-DETAIL-17-.jpeg);
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -434,11 +434,11 @@ body {
 .galeria__content #card-7:hover {
   background-size: 110%;
   filter: grayscale(0%);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), url("../img/paisagem.jpg"));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), url(MICHELANGELO-BUONARROTI-LAST-JUDGMENT-DETAIL-17-.jpeg));
 }
 
 .galeria__content #card-8 {
-  background-image: url("/img/pietá_michelangelo.jpg");
+  background-image: url(pietá_michelangelo.jpg);
   background-size: 100%;
   background-position: top center;
   background-repeat: no-repeat;
@@ -449,11 +449,11 @@ body {
 .galeria__content #card-8:hover {
   background-size: 110%;
   filter: grayscale(0%);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), url("../img/pessoas.jpg"));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), url(pietá_michelangelo.jpg));
 }
 
 .galeria__content #card-9 {
-  background-image: url("/img/a_criacao_adao_michelangelo.png");
+  background-image: url(a_criacao_adao_michelangelo.png);
   background-size: 240%;
   background-position: left center;
   background-repeat: no-repeat;
@@ -464,7 +464,7 @@ body {
 .galeria__content #card-9:hover {
   background-size: 260%;
   filter: grayscale(0%);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), url("../img/refeicoes.jpg"));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), url(a_criacao_adao_michelangelo.png));
 }
 
 .arts__content__background {
@@ -529,7 +529,7 @@ body {
   width: 30%;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url(/img/Baco\,_por_Caravaggio.jpg);
+  background-image: url(Baco\,_por_Caravaggio.jpg);
   /* background-color: rebeccapurple */
 }
 
@@ -552,7 +552,7 @@ body {
   width: 40%;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url(/img/Judith_Beheading_Holofernes_-_Caravaggio.jpg);
+  background-image: url(Judith_Beheading_Holofernes_-_Caravaggio.jpg);
 }
 
 .work-3 {
@@ -571,7 +571,7 @@ body {
   width: 30%;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url(/img/Crucifixion_of_Saint_Peter-Caravaggio_-c.1600--1.jpg);
+  background-image: url(Crucifixion_of_Saint_Peter-Caravaggio_-c.1600--1.jpg);
 }
 
 .work-4 {
@@ -593,7 +593,7 @@ body {
   width: 40%;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url(/img/blake-europe-x71164.jpg);
+  background-image: url(blake-europe-x71164.jpg);
 }
 
 .work-5 {
@@ -617,7 +617,7 @@ body {
   margin-top: 6em;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url(/img/download.png);
+  background-image: url(download.png);
 }
 
 .work-5 .work__info {
@@ -645,7 +645,7 @@ body {
   width: 40%;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url(/img/hero_banner.jpg!Large.jpg);
+  background-image: url(hero_banner.jpg!Large.jpg);
 }
 
 .work-6 .work__info {
@@ -684,7 +684,7 @@ body {
   width: 30%;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url(/img/pietá_michelangelo.jpg);
+  background-image: url(pietá_michelangelo.jpg);
 }
 
 .work-9 {
@@ -706,7 +706,7 @@ body {
   width: 50%;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url(/img/a_criacao_adao_michelangelo.png);
+  background-image: url(a_criacao_adao_michelangelo.png);
 }
 
 .music-background {
