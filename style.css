@@ -102,7 +102,7 @@ body {
 }
 
 .background-img {
-  background-image: url(/venus-marte_sandro-botticelli_1445-1510.jpg);
+  background-image: url(venus-marte_sandro-botticelli_1445-1510.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 20%;
@@ -112,7 +112,7 @@ body {
 }
 
 .hero__banner {
-  background-image: url(/Botticelli-Portrait_of_a_Youth-removebg-preview.png);
+  background-image: url(Botticelli-Portrait_of_a_Youth-removebg-preview.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right bottom;
