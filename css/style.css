@@ -1,0 +1,784 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --default-font: "Maven Pro", sans-serif;
+  --font-btn-cto: "Inter", sans-serif;
+  --title-font: "Roboto", sans-serif;
+  --font-h2: "Montserrat", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--default-font);
+}
+
+/* header */
+
+.container-fixed {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.header_background {
+  background-color: #101010;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.hero {
+  display: flex;
+  width: 144em;
+  height: auto;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.hero__logo {
+  margin: 0 7px;
+}
+
+.hero__logo img {
+  width: 20em;
+
+}
+
+.hero__nav {
+  margin-right: 7rem;
+}
+
+.hero__nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 1.6em;
+}
+
+.hero__nav a {
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  text-decoration: none;
+  color: #717171;
+  padding: .5em;
+  display: block;
+  /* border-bottom: 2px solid darkred; */
+  margin: 0;
+  transition: 0.5s all;
+}
+
+.hero__nav a:hover {
+  color: #ffffff;
+}
+
+/* header fim */
+
+/* banner */
+
+/* .hero_banner__background {
+    background-color: #2A2A2A;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+} */
+
+.hero_banner__background {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.background-img {
+  background-image: url(/img/venus-marte_sandro-botticelli_1445-1510.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 20%;
+  background-position: right bottom;
+  width: 43%;
+  height: 60em;
+}
+
+.hero__banner {
+  background-image: url(/img/Botticelli-Portrait_of_a_Youth-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right bottom;
+  width: 100%;
+  height: 60em;
+}
+
+.hero__banner__content {
+  width: 55.7em;
+  height: 36.1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 3rem;
+}
+
+.hero__banner__content h1 {
+  font-size: 4em;
+  color: rgb(255, 229, 85);
+  margin-bottom: 3rem;
+  letter-spacing: .1rem;
+  font-weight: 400;
+  font-family: "Bodoni Moda", serif;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.hero__banner__content p {
+  line-height: 1.3em;
+  font-size: 2em;
+  color: #ffffff;
+  margin-bottom: 3rem;
+
+}
+
+.hero__banner__btn-cto {
+  font-size: 2.5em;
+  padding: 1rem 2rem;
+  margin: 0;
+  border: 1px solid gold;
+  border-radius: 2.5rem;
+  transition: .5s all;
+}
+
+.hero__banner__btn-cto a {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
+.hero__banner__btn-cto:hover {
+  background-color: darkgoldenrod;
+}
+
+/* banner fim */
+
+/* conteúdo principal */
+
+.artists__backgruond {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
+}
+
+.main__artists {
+  width: 100%;
+  height: 40em;
+  padding: 3em;
+}
+
+.main__artists h2 {
+  font-size: 3em;
+  margin: auto;
+  text-align: center;
+  padding: 3rem;
+  font-weight: bold;
+  margin: 0;
+  font-family: var(--font-h2);
+  text-transform: uppercase;
+  font-weight: normal;
+  color: gold;
+}
+
+.main__artists__circle {
+  display: flex;
+  justify-content: center;
+  gap: 4em;
+  margin: 1rem;
+  padding: 1em;
+}
+
+.circle__artists {
+  background-color: white;
+  width: 20em;
+  height: 20em;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  outline: .2em solid gold;
+  border-radius: 100%;
+  margin-bottom: 7em;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.circle__artists__img {
+  width: 100%;
+  height: 54%;
+}
+
+.circle__artists__img img {
+  height: 20em;
+  width: 20em;
+}
+
+.circle__artists__info {
+  background-color: rgba(0, 0, 0, 0.479);
+  font-family: var(--font-h2);
+  color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 20rem;
+  width: 20rem;
+  padding: .1rem;
+  font-size: 1.3em;
+  font-weight: normal;
+  letter-spacing: .1rem;
+  opacity: 0;
+  text-shadow: 1px 1px 5px black;
+}
+
+.tour__background__color {
+  background-color: #000;
+  margin: 0;
+}
+
+.tour__background__color h2 {
+  margin: 0;
+  padding: 5rem;
+  text-align: center;
+  font-size: 3em;
+  color: #fff;
+  font-family: var(--font-h2);
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  font-weight: normal;
+}
+
+.circle__artists__info:hover {
+  opacity: 100%;
+  transition: .2s all;
+}
+
+.galeria__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1170px;
+  padding: 1.5rem 0;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+}
+
+@media (max-widht: 426px) {
+  .galeria__content {
+    flex-direction: column;
+  }
+}
+
+.gallery-card {
+  width: 31%;
+  height: 400px;
+  margin-bottom: 4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  border: 2px solid gold;
+}
+
+@media (max-widht: 426px) {
+  .gallery-card {
+    width: 90%;
+    margin-bottom: 6%;
+  }
+}
+
+.gallery-card-title {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.gallery-card-btn {
+  padding: 0.6rem 2rem;
+  border: 2px solid #fff;
+  color: #fff;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  /* opacity: 0; */
+}
+
+.gallery-card-btn:hover {
+  background-color: #fff;
+  color: #000;
+  /* opacity: 100%; */
+}
+
+.galeria__content #card-1 {
+  background-image: url('/img/Baco\,_por_Caravaggio.jpg');
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+  transition: 0.6s;
+}
+
+.galeria__content #card-1:hover {
+  background-size: 110%;
+  filter: grayscale(0%);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), url("../img/animais.jpg"));
+}
+
+.galeria__content #card-2 {
+  background-image: url("/img/Judith_Beheading_Holofernes_-_Caravaggio.jpg");
+  background-size: 190%;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+  transition: 0.6s;
+}
+
+.galeria__content #card-2:hover {
+  background-size: 200%;
+  filter: grayscale(0%);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), url("../img/arquitetura.jpg"));
+}
+
+.galeria__content #card-3 {
+  background-image: url("/img/Crucifixion_of_Saint_Peter-Caravaggio_-c.1600--1.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+  transition: 0.6s;
+}
+
+.galeria__content #card-3:hover {
+  background-size: 110%;
+  filter: grayscale(0%);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), url("../img/cidade.jpg"));
+}
+
+.galeria__content #card-4 {
+  background-image: url("/img/blake-europe-x71164.jpg");
+  background-size: 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+  transition: 0.6s;
+}
+
+.galeria__content #card-4:hover {
+  background-size: 110%;
+  filter: grayscale(0%);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), url("../img/decoracao.jpg"));
+}
+
+.galeria__content #card-5 {
+  background-image: url("/img/download.png");
+  background-size: 230%;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+  transition: 0.6s;
+}
+
+.galeria__content #card-5:hover {
+  background-size: 240%;
+  filter: grayscale(0%);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), url("../img/esportes.jpg"));
+}
+
+.galeria__content #card-6 {
+  background-image: url("/img/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg");
+  background-size: 180%;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+  transition: 0.6s;
+}
+
+.galeria__content #card-6:hover {
+  background-size: 190%;
+  filter: grayscale(0%);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), url("../img/natureza.jpg"));
+}
+
+.galeria__content #card-7 {
+  background-image: url("/img/MICHELANGELO-BUONARROTI-LAST-JUDGMENT-DETAIL-17-.jpeg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+  transition: 0.6s;
+}
+
+.galeria__content #card-7:hover {
+  background-size: 110%;
+  filter: grayscale(0%);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), url("../img/paisagem.jpg"));
+}
+
+.galeria__content #card-8 {
+  background-image: url("/img/pietá_michelangelo.jpg");
+  background-size: 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+  transition: 0.6s;
+}
+
+.galeria__content #card-8:hover {
+  background-size: 110%;
+  filter: grayscale(0%);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), url("../img/pessoas.jpg"));
+}
+
+.galeria__content #card-9 {
+  background-image: url("/img/a_criacao_adao_michelangelo.png");
+  background-size: 240%;
+  background-position: left center;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+  transition: 0.6s;
+}
+
+.galeria__content #card-9:hover {
+  background-size: 260%;
+  filter: grayscale(0%);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), url("../img/refeicoes.jpg"));
+}
+
+.arts__content__background {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
+}
+
+.tours__artists {
+  /* background-color: yellowgreen; */
+  height: fit-content;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.tours__artists h2 {
+  font-size: 3em;
+  font-family: var(--font-h2);
+  font-weight: normal;
+  padding: 5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.work-1 {
+  /* background-color: #71717129; */
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 1.5em;
+  height: 55em;
+  padding: 2em;
+  justify-content: space-around;
+}
+
+.work__info {
+  /* background-color: aquamarine; */
+  height: 100%;
+  font-size: 1.5em;
+  width: 50%;
+}
+
+.work__info h3 {
+  font-family: var(--font-h2);
+  font-size: 3em;
+  font-weight: normal;
+  border-bottom: 2px solid gold;
+  padding: .5em;
+  text-align: center;
+}
+
+.work__info p {
+  line-height: 2em;
+  text-align: left;
+  font-size: 1.2em;
+}
+
+.work-1 .work__img {
+  text-align: center;
+  width: 30%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(/img/Baco\,_por_Caravaggio.jpg);
+  /* background-color: rebeccapurple */
+}
+
+.work-2 {
+  /* width: 100%; */
+  height: 50em;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 1.5em;
+  height: 55em;
+  padding: 2em;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+}
+
+.work-2 .work__img {
+  text-align: center;
+  height: 100%;
+  width: 40%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(/img/Judith_Beheading_Holofernes_-_Caravaggio.jpg);
+}
+
+.work-3 {
+  /* background-color: #71717129; */
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 1.5em;
+  height: 55em;
+  padding: 2em;
+  justify-content: space-around;
+}
+
+.work-3 .work__img {
+  text-align: center;
+  height: 100%;
+  width: 30%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(/img/Crucifixion_of_Saint_Peter-Caravaggio_-c.1600--1.jpg);
+}
+
+.work-4 {
+  /* width: 100%; */
+  height: 55em;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 1.5em;
+  height: 55em;
+  padding: 2em;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+}
+
+.work-4 .work__img {
+  text-align: center;
+  height: 100%;
+  width: 40%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(/img/blake-europe-x71164.jpg);
+}
+
+.work-5 {
+  /* width: 100%; */
+  height: 55em;
+  display: flex;
+  /* justify-content: center; */
+  justify-content: space-around;
+  align-content: center;
+  gap: 1.5em;
+  margin-top: .3em;
+  padding: 2em;
+  /* flex-direction: column; */
+  /* background-color: #717171; */
+}
+
+.work-5 .work__img {
+  text-align: center;
+  height: 100%;
+  width: 50%;
+  margin-top: 6em;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(/img/download.png);
+}
+
+.work-5 .work__info {
+  width: 50%;
+  height: 100%;
+  margin-left: 1em;
+}
+
+.work-6 {
+  /* background-color: #71717129; */
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 1.5em;
+  width: 90vw;
+  height: 90em;
+  padding: 2em;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.work-6 .work__img {
+  text-align: center;
+  height: 100%;
+  width: 40%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(/img/hero_banner.jpg!Large.jpg);
+}
+
+.work-6 .work__info {
+  width: 70%;
+}
+
+.work-7 {
+  /* background-color: #71717129; */
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 1.5em;
+  width: 90vw;
+  height: fit-content;
+  padding: 2em;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.work-8 {
+  /* background-color: #71717129; */
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 1.5em;
+  width: 90vw;
+  height: 55em;
+  padding: 2em;
+  justify-content: space-around;
+  align-items: center;
+  /* flex-direction: column; */
+}
+
+.work-8 .work__img {
+  text-align: center;
+  height: 100%;
+  width: 30%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(/img/pietá_michelangelo.jpg);
+}
+
+.work-9 {
+  /* background-color: #71717129; */
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 1.5em;
+  width: 90vw;
+  height: 90em;
+  padding: 2em;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.work-9 .work__img {
+  text-align: center;
+  height: 100%;
+  width: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(/img/a_criacao_adao_michelangelo.png);
+}
+
+.music-background {
+  background-color: #101010;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.music__session {
+  width: 90%;
+  height: fit-content;
+  padding: 5em;
+}
+
+.music__session h2 {
+  margin: 0;
+  padding: 5rem;
+  text-align: center;
+  font-size: 3em;
+  color: #fff;
+  font-family: var(--font-h2);
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  font-weight: normal;
+}
+
+.musics {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40em;
+  gap: 1em;
+}
+
+.music {
+  display: flex;
+  justify-content: center;
+  width: 40em;
+  height: 12em;
+  background-color: #00000068;
+  flex-direction: column;
+  color: white;
+}
+
+.music__info {
+  width: 100%;
+  height: 50%;
+  text-align: center;
+  font-size: 1em;
+}
+
+.music__midia {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 50%;
+  background-color: #e7e7e7;
+}
+
+
+.footer {
+  width: 98, 9vw;
+  height: 10rem;
+  background-color: #c8a700;
+  color: #2a2900;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3em;
+  letter-spacing: .1em;
+
+}
